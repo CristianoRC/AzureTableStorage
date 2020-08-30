@@ -1,10 +1,11 @@
+using System;
 using Microsoft.Azure.Cosmos.Table;
 
 namespace AzureTableStorage.models
 {
     public class User : TableEntity
     {
-        private User()
+        public User()
         {
             System.Console.WriteLine("Olá Mundo!");
         }
@@ -23,5 +24,10 @@ namespace AzureTableStorage.models
         public string Name { get; set; }
         public string Email { get; set; }
         public long GroupId { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Id} - {GroupId}, {Name}, {Email}{Environment.NewLine}";
+        }
     }
 }

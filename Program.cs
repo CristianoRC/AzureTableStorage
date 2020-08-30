@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using AzureTableStorage.models;
 using AzureTableStorage.Services;
+using System;
 
 namespace AzureTableStorage
 {
@@ -11,6 +12,8 @@ namespace AzureTableStorage
             var userService = new UserService();
             var user = new User(1, 21, "Cristiano", "contato@cristianoprogramador.com");
             await userService.AddOrUpdate(user);
+            var userResponse = await userService.GetUser(1, 21);
+            Console.WriteLine(userResponse.ToString());
         }
     }
 }
