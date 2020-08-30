@@ -1,18 +1,16 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
+﻿using System.Threading.Tasks;
+using AzureTableStorage.models;
+using AzureTableStorage.Services;
 
 namespace AzureTableStorage
 {
-    class Program
+    public class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            var configs = Configuration.Get();
-
-            var connectionStirng = configs["AZURE_STORAGE_CONNECTION_STRING"];
-
-            Console.WriteLine(connectionStirng);
+            var userService = new UserService();
+            var user = new User(1, 21, "Cristiano", "contato@cristianoprogramador.com");
+            await userService.AddOrUpdate(user);
         }
     }
 }
