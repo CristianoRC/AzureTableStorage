@@ -18,6 +18,7 @@ namespace AzureTableStorage.models
             RowKey = id.ToString();
             PartitionKey = groupId.ToString();
         }
+
         public User(long id, long groupId, string name, string email, string rowKey, string partitionKey)
         {
             this.Id = id;
@@ -36,7 +37,7 @@ namespace AzureTableStorage.models
 
         public override string ToString()
         {
-            return $"{Id} - {GroupId}, {Name}, {Email}{Environment.NewLine}";
+            return $"{Id} - {GroupId}, {Name}, {Email}, {Timestamp:yyyy MMMM dd HH:mm:ss}{Environment.NewLine}";
         }
     }
 }

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3454ac-99e7-48ae-9512-5eccc15ef182" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AzureTableStorage.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AzureTableStorage.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/models/User.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
       </list>
     </option>
@@ -40,6 +41,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30005425" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="AzureTableStorage" type="DotNetProject" factoryName=".NET Project">
@@ -69,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598875086740</updated>
-      <workItem from="1598875091555" duration="1316000" />
+      <workItem from="1598875091555" duration="2824000" />
     </task>
     <servers />
   </component>
@@ -84,22 +86,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="441" height="505" key="DebuggerActiveHint/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598875779250" />
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1598876338342">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1598878824994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598876338342" />
-    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1598876338342">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598878824994" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1598878824994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.center/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598876338342" />
-    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1598876338342">
+    <state width="1874" height="287" key="GridCell.Tab.0.center/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598878824994" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1598878824994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.left/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598876338342" />
-    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1598876338342">
+    <state width="1874" height="287" key="GridCell.Tab.0.left/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598878824994" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1598878824994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.right/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598876338342" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598878824994" />
     <state width="1874" height="381" key="GridCell.Tab.1.bottom" timestamp="1598876291900">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -164,5 +166,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="381" key="GridCell.Tab.4.right/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598876291901" />
+    <state x="743" y="282" width="924" height="298" key="Performance.Activity.Monitor" timestamp="1598876491596">
+      <screen x="0" y="29" width="1920" height="1051" />
+    </state>
+    <state x="743" y="282" width="924" height="298" key="Performance.Activity.Monitor/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598876491596" />
   </component>
 </project>

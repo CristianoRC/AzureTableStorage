@@ -26,7 +26,7 @@ namespace AzureTableStorage
 
         private static async Task GetUserById(UserService userService)
         {
-            var userById = await userService.GetUser(1, 21);
+            var userById = await userService.GetUser(2, 21);
             Console.WriteLine(userById.ToString());
         }
 
