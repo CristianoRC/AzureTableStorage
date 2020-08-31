@@ -7,7 +7,6 @@ namespace AzureTableStorage.models
     {
         public User()
         {
-            System.Console.WriteLine("Olá Mundo!");
         }
 
         public User(long id, long groupId, string name, string email)
@@ -19,6 +18,16 @@ namespace AzureTableStorage.models
             RowKey = id.ToString();
             PartitionKey = groupId.ToString();
         }
+        public User(long id, long groupId, string name, string email, string rowKey, string partitionKey)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Email = email;
+            this.GroupId = groupId;
+            RowKey = rowKey;
+            PartitionKey = partitionKey;
+        }
+
 
         public long Id { get; set; }
         public string Name { get; set; }

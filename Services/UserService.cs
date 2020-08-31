@@ -1,12 +1,15 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using AzureTableStorage.models;
 using Microsoft.Azure.Cosmos.Table;
+using System.Linq;
 
 namespace AzureTableStorage.Services
 {
     public class UserService
     {
         private readonly string _tableName;
+
         public UserService()
         {
             _tableName = "Users";
@@ -27,6 +30,13 @@ namespace AzureTableStorage.Services
             return response.Result as User;
         }
 
-        // public async Task<User[]> GetUsersByGroup(long userId, long groupId) { }
+        public async Task<IList<User>> GetUsersByGroup(long groupId)
+        {
+            var table = await TableService.GetTableAsync(_tableName);
+
+            return table.CreateQuery<User>()
+                .Where(x => x.PartitionKey == groupId.ToString())
+                .ToList();
+        }
     }
 }
